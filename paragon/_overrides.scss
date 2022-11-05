@@ -1,2 +1,11 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 1204px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
