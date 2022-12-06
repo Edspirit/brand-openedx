@@ -1,2 +1,61 @@
 // Use this file to set SASS variables for @edx/paragon
-// See _variables.scss in https://github.com/openedx/paragon/blob/master/scss/core/ for reference
+// See _variables.scss in https://github.com/edx/paragon/blob/master/scss/core/ for reference
+
+$white: #fff !default;
+$gray-100: #ebebeb !default;
+$gray-200: #cccccc !default;
+$gray-300: #adadad !default;
+$gray-400: #8f8f8f !default;
+$gray-500: #707070 !default;
+$gray-600: #5c5c5c !default;
+$gray-700: #454545 !default;
+$gray-800: #333333 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+$teal: #00688d;
+
+$primary: #262b54 !default; // elm
+$brand: #ff8057 !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "primary": $primary,
+    "brand": $brand,
+  ),
+  $theme-colors
+);
+
+// Color system
+
+$primary-100: #dbdff6;
+$primary-200: #b9c1ed;
+$primary-300: #8891cb;
+$primary-400: #596198;
+$primary-500: $primary;
+$primary-600: #1b2048;
+$primary-700: #13163c;
+$primary-800: #0c0e30;
+$primary-900: #070928;
+
+$brand-100: #ffefdd;
+$brand-200: #ffdabb;
+$brand-300: #ffc19a;
+$brand-400: #ffa881;
+$brand-500: $brand;
+$brand-600: #db5a3f;
+$brand-700: #b73a2b;
+$brand-800: #931f1b;
+$brand-900: #7a1014;
+
+// Buttons + Forms
+//
+// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
+
+$font-size-base: 1rem;
+$input-font-size: 0.75rem;
+$btn-font-size: 0.875rem;
+
+$search-border-radius: 4px;
+$search-border-focus-color: $gray-500;
+$search-border-focus-width: 0.25rem;
