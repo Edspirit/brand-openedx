@@ -13,6 +13,7 @@ $gray-800: #333333 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 $teal: #00688d;
+$accent-b: #f0cc00;
 
 $primary: #262b54 !default; // elm
 $brand: #ff8057 !default;
@@ -22,6 +23,8 @@ $theme-colors: map-merge(
   (
     "primary": $primary,
     "brand": $brand,
+    "warning": $accent-b,
+    "accent-b": $accent-b,
   ),
   $theme-colors
 );
@@ -51,11 +54,14 @@ $brand-900: #7a1014;
 // Buttons + Forms
 //
 // Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
-
+$btn-padding-y: 0.625rem;
+$btn-padding-x: 1rem;
 $font-size-base: 1rem;
 $input-font-size: 0.75rem;
-$btn-font-size: 0.875rem;
+$btn-font-size: 1.125rem;
 
 $search-border-radius: 4px;
 $search-border-focus-color: $gray-500;
 $search-border-focus-width: 0;
+
+$font-family-sans-serif: "Inter", "Helvetica Neue", Arial, sans-serif !default;
