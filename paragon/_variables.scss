@@ -22,11 +22,11 @@ $brand: #ff8057 !default;
 $theme-colors: () !default;
 $theme-colors: map-merge(
   (
-    "primary": $primary,
-    "brand": $brand,
-    "warning": $accent-b,
-    "accent-b": $accent-b,
-    "accent-a": $accent-a,
+    'primary': $primary,
+    'brand': $brand,
+    'warning': $accent-b,
+    'accent-b': $accent-b,
+    'accent-a': $accent-a,
   ),
   $theme-colors
 );
@@ -111,4 +111,11 @@ $search-border-radius: 4px;
 $search-border-focus-color: $gray-500;
 $search-border-focus-width: 0;
 
-$font-family-sans-serif: "Inter", "Helvetica Neue", Arial, sans-serif !default;
+$font-family-sans-serif: 'Inter', 'Helvetica Neue', Arial, sans-serif !default;
+
+// Use this file to set SASS variables for @edx/paragon
+// See _variables.scss in https://github.com/openedx/paragon/blob/master/scss/core/ for reference
+
+// $primary: #15376d;
+$primary-light: #f2f7f8;
+$light-drak: #374151;
