@@ -166,12 +166,13 @@ html {
   border: none;
   .nav.nav-underline-tabs {
     border-bottom: 1px solid $primary-light;
+    justify-content: space-between;
+    display: flex;
     a,
     button {
       border-width: 2px;
       font-size: 14px;
       font-weight: 500;
-      margin: 0 10px 0 0;
       background: none !important;
       @include media-breakpoint-up(md) {
         margin: 0 32px 0 0;
