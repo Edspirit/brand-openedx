@@ -2064,9 +2064,10 @@ footer.tutor-container {
           font-size: 14px;
         }
       }
-      // Override RTL direction
-      [dir='rtl'] & {
-        direction: ltr;
+      [dir='rtl'] .pgn__searchfield {
+        form {
+          flex-flow: row !important;
+        }
       }
     }
   }
