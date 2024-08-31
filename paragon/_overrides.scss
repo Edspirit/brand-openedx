@@ -2064,9 +2064,10 @@ footer.tutor-container {
           font-size: 14px;
         }
       }
-    }
-    [dir='rtl'] .pgn__searchfield {
-      direction: ltr;
+      // Override RTL direction
+      [dir='rtl'] & {
+        direction: ltr;
+      }
     }
   }
 }
