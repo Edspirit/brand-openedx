@@ -2621,12 +2621,12 @@ footer.tutor-container {
           font-size: 14px;
         }
       }
-      [dir='rtl'] .pgn__searchfield {
-        form {
-          flex-flow: row !important;
-        }
-      }
     }
+  }
+}
+[dir='rtl'] .pgn__searchfield {
+  form {
+    flex-flow: row !important;
   }
 }
 .pgn__pageBanner__accentB {
