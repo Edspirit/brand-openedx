@@ -18,6 +18,15 @@
 .btn-brand {
   color: #fff;
 }
+// Ensure the footer is always at the bottom of the page
+body #root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  main {
+    flex-grow: 1;
+  }
+}
 
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
