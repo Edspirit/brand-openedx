@@ -36,6 +36,16 @@ body #root {
     flex-direction: column;
     flex-grow: 1;
 
+    .studio-header {
+      flex-grow: unset !important;
+
+      .container-mw-xl.container-fluid {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+      }
+    }
+
     > div:first-child {
       display: flex;
       flex-direction: column;
